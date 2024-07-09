@@ -1,3 +1,21 @@
+@media (max-width: 1150px) {
+    .carousel {
+        .next, .prev {
+           display: none;
+        }
+
+    }
+}
+
+@media (min-width: 1150px) {
+    .carousel {
+        .tns-nav {
+            display: none;
+        }
+    }
+
+}
+
 @media (max-width: 990px) {
     .container {
         padding: 0 15px;
@@ -34,6 +52,14 @@
     .feed-form {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .carousel {
+        .tns-item {
+            img {
+                width: 80%;
+            }
+        }
     }
 
 }
@@ -86,12 +112,16 @@
         }
 
     }
+
 }
 
 @media (max-width: 576px) {
     .header {
         &__official {
             display: none;
+        }
+        &_phone {
+            font-size: 14px;
         }
     }
     .consultation {
@@ -131,10 +161,10 @@
             width: 150px;
         }
         &__contacts {
-            font-size: 14px;
+            font-size: 12px;
         }
         &__phone {
-            font-size: 14px;
+            font-size: 12px;
         }
     }
     .promo {
@@ -177,6 +207,15 @@
     .feed-form {
         width: 250px;
     }
+
+    .carousel {
+        .tns-nav {
+            button {
+                width: 15px;
+                height: 15px;
+            }
+        }
+    }
 }
 
 @media (max-width: 320px) {
@@ -201,6 +240,14 @@
     .consultation {
         &__descr {
             line-height: 17px;
+        }
+    }
+
+    .carousel {
+        .tns-item {
+            img {
+                width: 80%;
+            }
         }
     }
 }
