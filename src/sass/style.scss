@@ -1,5 +1,7 @@
 * {
     font-family: 'Museo Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 .container {
@@ -17,4 +19,5 @@
 @import 'blocks/forms';
 @import 'blocks/carousel';
 @import 'blocks/catalog';
+@import 'blocks/reviews';
 @import 'media';
