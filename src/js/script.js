@@ -4,12 +4,8 @@ const slider = tns({
     slideBy: 'page',
     navPosition: 'bottom',
     controls: false,
-    responsive: {
-      320: {
-        nav: true,
-        controls: false,
-      }
-    }
+    nav: true,
+    
   });
 
   document.querySelector('.prev').addEventListener('click', function () {
