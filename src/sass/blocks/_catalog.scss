@@ -37,10 +37,13 @@
         }
     }
     &__content {
-        display: flex;
+        display: none;
         flex-wrap: wrap;
         justify-content: space-between;
         margin-top: 60px;
+        &_active {
+            display: flex;
+        }
     }
     &-item {
         padding: 20px 20px 26px 20px;
@@ -69,7 +72,7 @@
             text-align: center;
             color: #0D0D0D;
         }
-        &__link {
+        &__link, &__back {
             display: block;
             margin-top: 17px;
             font-size: 14px;
