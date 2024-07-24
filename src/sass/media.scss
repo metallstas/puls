@@ -192,6 +192,25 @@
             font-size: 11px;
         }
     }
+
+    .feed-form {
+        width: 220px;
+    }
+
+    .modal {
+        padding: 30px 30px;
+        width: 285px;
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+
+        .button_form {
+            font-size: 12px;
+        }
+    }
 }
 
 @media (max-width: 390px) {
@@ -317,6 +336,24 @@
             }
         }
     }
+
+
+    .feed-form {
+        width: 180px;
+        input {
+            font-size: 12px;
+            height: 35px;
+        }
+    }
+
+    .modal {
+        width: 240px;
+
+        .button_form {
+            font-size: 12px;
+            height: 35px;
+        }
+    }
 }
 
 @media (max-width: 320px) {
@@ -370,5 +407,11 @@
             font-size: 11px;
             line-height: 16px;
         }
+    }
+    .feed-form {
+        width: 160px;
+    }
+    .modal {
+        width: 220px;
     }
 }

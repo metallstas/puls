@@ -26,6 +26,13 @@
     }&_mini {
         width: 130px;
         height: 40px;
-        font-size: 14px;    
+        font-size: 14px; 
+    }
+    &:hover {
+        border: 3px solid $main-color;
+        background-color: #fff;
+        color: $main-color;
+        transition: 0.7s all;   
+        
     }
 }

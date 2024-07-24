@@ -36,8 +36,14 @@
     }
 
     &__social-item {
+        transition: 0.5s all;
         img {
             height: 52px;
+           
+        }
+        &:hover {
+            scale: 1.1;
+            transition: 0.5s all;
         }
     }
 }

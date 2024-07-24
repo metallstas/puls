@@ -27,6 +27,11 @@
         text-align: right;
         text-decoration: none;
         color: $color-text;
+        transition: 0.5s all;
+
+        &:hover {
+            scale: 1.05;
+        }
     }
     &__contacts {
         display: flex;
