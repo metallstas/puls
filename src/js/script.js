@@ -50,5 +50,34 @@ const slider = tns({
         $('.overlay, #order').fadeIn();
       })
     })
+
+    function validateForm(selector) {
+      $(selector).validate({
+        rules: {
+          name: "required",
+          phone: "required",
+          email: {
+            required: true,
+            email: true,
+          }
+        },
+  
+        messages: {
+            name: "Пожалуйста введите имя",
+            phone: "Пожалуйста введите номер телефона",
+            email: {
+              required: "Пожалуйсиа введите почту",
+              email: "Неправильно введен адрес почты"
+            }
+          }
+      })
+    }
     
+    validateForm('#consultation-form');
+    validateForm('#consultation form');
+    validateForm('#order form');
+
+    $('input[name=phone]').mask("+375 (99) 999-99-99")
+
+
   });

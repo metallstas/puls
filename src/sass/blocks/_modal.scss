@@ -41,6 +41,13 @@
         text-align: center;
         color: #0D0D0D;
     }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        margin-top: 10px;
+        border: none;
+    }
 }
 
 #consultation, #order, #thanks {
