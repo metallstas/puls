@@ -33,5 +33,12 @@
             color: $main-color;
             text-transform: uppercase;
         }
+
+    }
+
+    &__icon {
+        &_animation {
+            animation: heardbeat 2s ease infinite;
+        }
     }
 }
