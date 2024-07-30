@@ -103,4 +103,6 @@ const slider = tns({
       }
     })
 
+    new WOW().init(); 
+
   });
